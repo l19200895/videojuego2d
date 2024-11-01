@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/fondo.png');
+    background-size: 1480px 1300px; /* Escala la imagen para que cubra todo el canvas */
+    background-position: center; /* Centra la imagen en el canvas */
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    color: #0129ac;
+}
+
+.instructions {
+    font-size: 0.9rem;
+    background-color: #e1f5fe;
+    border: 1px solid #1100ff;
+}
+
+#gameCanvas {
+    background-image: url('img/juego.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escala la imagen para que cubra todo el canvas */
+    background-position: center; /* Centra la imagen en el canvas */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: url('img/cursor.png'), auto;
+}
+
+
+#gameOver {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #666;
+}
